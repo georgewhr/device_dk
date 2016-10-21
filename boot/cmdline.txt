@@ -1,0 +1,1 @@
+set bootargs 'noinitrd androidboot.hardware=dk androidboot.selinux=permissive root=/dev/nfs rw nfsroot=192.168.0.3:/tftpboot/nfs_dk,nfsvers=3 rootpath=/tftpboot/nfs_dk ip=192.168.0.16:192.168.0.3:192.168.0.3:255.255.255.0::eth1:on init=/init'
